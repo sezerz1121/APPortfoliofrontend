@@ -82,11 +82,6 @@ function Contactme() {
           <div className='ellipse'></div>
           <div className='ellipseIV'></div>
           <div className='ellipseV'></div>
-          <div className='ellipseVI'></div>
-          <div className='ellipseVII'></div>
-          <div className='ellipseVIII'></div>
-          <div className='ellipseXI'></div>
-          <div className='ellipseX'></div>
         <motion.div variants={item}><input className='InputField' name='yourName' type='text' onChange={handleChange} placeholder='Your name' value={name}/></motion.div> 
         <motion.div variants={item}><input className='InputField' name='yourEmail' type='mail' onChange={handleChange} placeholder='Email' value={email}/></motion.div> 
         <motion.div variants={item}><input className='InputField'name='yourMessage' type='text' onChange={handleChange} placeholder='Message' value={message}/></motion.div> 
