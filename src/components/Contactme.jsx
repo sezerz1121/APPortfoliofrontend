@@ -77,8 +77,6 @@ function Contactme() {
     <>  <motion.div className='contactmeDIvParent' ref={ref} variants={container} initial="hidden" animate={mainControl}>
 
         <motion.div className='ContactmeDiv'>
-        <div  className='ellipseI'></div>
-          <div className='ellipseII'></div>
           <div className='ellipse'></div>
           <div className='ellipseIV'></div>
           <div className='ellipseV'></div>
