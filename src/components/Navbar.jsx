@@ -50,6 +50,7 @@ function Navbar() {
             <div className='NavbarPages'>About</div>
             <div className='NavbarPages'>Work</div>
             <div className='NavbarPages' onClick={handleContact}>Contact</div>
+            <div className='NavbarPages'  onClick={handleDownload}> Resume <FiDownload /></div>
           </div>
         )}
       </div>
