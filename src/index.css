@@ -636,8 +636,12 @@ body
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #555;
     font-weight: 700;
+    width: 50%;
+    background-color: white;
+    border-bottom: solid 1px#333333;
 
   }
 
