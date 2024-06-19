@@ -35,9 +35,7 @@ const ProjectsRender = () => {
                   <div  className='ellipseI'></div>
           <div className='ellipseII'></div>
           <div className='ellipse'></div>
-          <div className='ellipseIV'></div>
-          <div className='ellipseV'></div>
-        
+
             {reversedProjects.slice(0, visibleCount).map(project => (
                 <Project
                     key={project._id}
