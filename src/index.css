@@ -373,7 +373,12 @@ body
   border-radius: 6px;
   border: 1px solid white;
 }
-
+.ProjectCardImage img{
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid white;
+}
 .ProjectCardTextDiv {
   display: flex;
   flex-direction: column;
@@ -385,6 +390,7 @@ body
   margin-top: 10px;
   font-size: 30px;
   font-weight: bold;
+  margin-bottom: 0%;
 }
 
 .ProjectCardFeature {
