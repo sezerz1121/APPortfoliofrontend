@@ -9,6 +9,9 @@ function Footer() {
 const handleHome = () => {
   navigate("/");
 };
+  const handleRedirect = () => {
+  window.open('https://www.linkedin.com/in/aayush-panchal-8a4a961b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', '_blank');
+};
   const container = {
 
     hidden: { opacity: 1, scale: 0 },
@@ -47,7 +50,7 @@ const handleHome = () => {
                 <motion.div className='FooterText'>
                           <motion.div className='FooterTextSocials'>
                                 <motion.div  variants={item} className='FooterTextSocialsText'>Professional Links</motion.div>
-                                <a href='https://www.linkedin.com/in/aayush-panchal-8a4a961b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank'><motion.div  variants={item} className='FooterTextSocialsTextI'>LinkedIn</motion.div></a>
+                               <motion.div  variants={item} className='FooterTextSocialsTextI' onClick={handleRedirect}>LinkedIn</motion.div>
                                 <motion.div  variants={item} className='FooterTextSocialsTextI'>Instagram</motion.div>
 
                           </motion.div>
