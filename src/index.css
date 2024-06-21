@@ -130,8 +130,8 @@ body
     background-color: #FF5D20;
     border-radius: 50%;
     position: absolute;
-    bottom:-150px; 
-    right: -150px;
+    bottom:-15px; 
+    right: -15px;
     filter: blur(90px);
     opacity: 0.46;
     z-index: -1;
