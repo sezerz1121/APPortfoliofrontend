@@ -43,6 +43,9 @@ const handleHome = () => {
   return (
     <>
         <motion.div className='FooterParentDiv' ref={ref} variants={container} initial="hidden" animate={mainControl}>
+          <div  className='ellipseI'></div>
+          <div className='ellipseII'></div>
+          <div className='ellipse'></div>
             <motion.div className='FooterDiv ' variants={item}>
                 <motion.div className='FooterImage ' variants={item}>
                     <img  src='/Images/Sticker3.png' />
