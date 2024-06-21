@@ -9,15 +9,7 @@ body
 
 }
 
-a {
-  text-decoration: none; 
-  color: inherit;
 
-a:hover,
-a:active,
-a:visited {
-  text-decoration: none; 
-}
   
 #root{
   margin: 0%;
