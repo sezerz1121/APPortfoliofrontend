@@ -896,8 +896,8 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 251px;
-    width: 251px;
+      height: 265px;
+    width: 201px;
     position: relative;
     margin-right: 0px;
     }
@@ -1105,4 +1105,53 @@ body
   height: 70%;
 }
 
+}
+
+
+@media screen and (max-width: 1280px) and (min-width: 600px) {
+
+  .HeroSectionIntroBottomText {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    width: 500px;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.AboutmeInfoImageDiv img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 355px;
+    height: 467px;
+    position: relative;
+    margin-right: 100px;
+
+}
+.FooterImage {
+  position: absolute;
+  width: 471.2px;
+  height: 471.2px;
+  top: -150px;
+  left: 0px;
+}
+.FooterImage img{
+  position: absolute;
+  width: 471.2px;
+  height: 471.2px;
+  top: 35px;
+  left: 0px;
+}
+
+.ContactmeDiv {
+  font-family: "Montserrat", sans-serif;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
 }
